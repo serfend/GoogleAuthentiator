@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+	<Version>1.0.10</Version>
+	<AssemblyVersion>1.0.0</AssemblyVersion>
+	<FileVersion>1.0.0.0</FileVersion>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<PackageProjectUrl>github.com/serfend/GoogleAuthentiator</PackageProjectUrl>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<RepositoryUrl>github.com/serfend/GoogleAuthentiator</RepositoryUrl>
+	<Description>TwoFactorAuthenticator</Description>
+	<Authors>serfend</Authors>
+	<Company>sf</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
